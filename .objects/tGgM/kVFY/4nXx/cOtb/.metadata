@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Enter the plain or Ciph…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cOtb-vsfUUammWrG1crmvQ",
+  "Reference": "ej1kaHY4C0aDk9spEbzp7w/cOtb-vsfUUammWrG1crmvQ",
+  "ParentRef": "ej1kaHY4C0aDk9spEbzp7w/4nXxMcnQ6UmNbTP0X27JlQ",
+  "Created": "2025-12-28T11:37:54.801228Z",
+  "Updated": "2025-12-28T11:37:54.801228Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome SHA-1 Hash Generator Online Tool",
+  "Type": "App",
+  "Id": "tGgM9D9yOEmXCu5_ESu5Qg",
+  "Reference": "ej1kaHY4C0aDk9spEbzp7w/tGgM9D9yOEmXCu5_ESu5Qg",
+  "Created": "2025-12-28T11:19:31.22104Z",
+  "Updated": "2025-12-28T11:19:31.22104Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
