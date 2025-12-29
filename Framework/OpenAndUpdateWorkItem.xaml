@@ -103,25 +103,25 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenAndUpdateWorkItem" sap:VirtualizedContainerService.HintSize="925.2,2487.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenAndUpdateWorkItem" sap:VirtualizedContainerService.HintSize="910,2612.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="584,2464" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="584,2589.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome ACME System 1 - Work Items" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,2380.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="51f32de0-befc-4bc1-9d28-3de90913e234" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome ACME System 1 - Work Items" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="550.4,2506.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="51f32de0-befc-4bc1-9d28-3de90913e234" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,2140.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="516.8,2266.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="ClientID" />
                 <Variable x:TypeArguments="x:String" Name="ClientCountry" />
@@ -138,7 +138,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/80441659" CVScreenId="26caf212-0394-476b-a9a2-776d63543585" ContentHash="NqUv3zIyNEq9vOyEpm-rCw" CvType="AnyWordGroup" DesignTimeRectangle="454, 642, 72, 16" ElementType="Text" Guid="8fe3a890-bb9a-40a6-a860-53360f473905" InformativeScreenshot="4a821bafe6311933679b2e0e2979f534.png" Reference="ej1kaHY4C0aDk9spEbzp7w/l1E9qWG44UiuC-XPWD7G5g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="26caf212-0394-476b-a9a2-776d63543585" CvTextArea="371, 642, 79, 16" CvTextArgument="Client ID:" CvType="Text" DesignTimeRectangle="373, 642, 77, 20" FuzzySelectorArgument="&lt;webctrl tag='B' type='' class='' aaname='Client ID:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Client ID:' /&gt;" Guid="7cba7170-0357-4be0-af92-9e10c4257a6e" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -149,7 +149,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/80441659" CVScreenId="26caf212-0394-476b-a9a2-776d63543585" ContentHash="mfeZwVhoQUCoNzkB-OwY0Q" CvType="AnyWordGroup" DesignTimeRectangle="502, 692, 71, 16" ElementType="Text" Guid="f4236d60-04a3-4c8c-b621-1946c9fc2cac" InformativeScreenshot="2ed0e183072ad0e31888adfe5b619e48.png" Reference="ej1kaHY4C0aDk9spEbzp7w/7GBvfp50ak-vwAZx8f15jQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="26caf212-0394-476b-a9a2-776d63543585" CvTextArea="371, 692, 127, 20" CvTextArgument="Client Country:" CvType="Text" DesignTimeRectangle="373, 692, 126, 20" FuzzySelectorArgument="&lt;webctrl type='' tag='B' class='' aaname='Client Country:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Client Country:' /&gt;" Guid="42b377ca-738d-4cf2-8b9d-abee71224c71" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -160,7 +160,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/80441659" CVScreenId="26caf212-0394-476b-a9a2-776d63543585" ContentHash="dyODbRh_-EurGJdd9b7bLw" CvType="AnyWordGroup" DesignTimeRectangle="484, 667, 134, 16" ElementType="Text" Guid="6fbbdfcb-0c59-44c7-b538-777c9c454e7a" InformativeScreenshot="b034d86a4f3907097b6eb95b2a4cfcdd.png" Reference="ej1kaHY4C0aDk9spEbzp7w/3p6nHoKQgEy4pB5pZd1ygQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="26caf212-0394-476b-a9a2-776d63543585" CvTextArea="371, 667, 109, 16" CvTextArgument="Client Name:" CvType="Text" DesignTimeRectangle="373, 667, 107, 20" FuzzySelectorArgument="&lt;webctrl type='' tag='B' class='' aaname='Client Name:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Client Name:' /&gt;" Guid="28f25787-e995-4196-9d07-be8548e22a2e" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -172,7 +172,7 @@
                   <OutArgument x:TypeArguments="x:String">[inp_hash]</OutArgument>
                 </Assign.To>
                 <Assign.Value>
-                  <InArgument x:TypeArguments="x:String">[ClientID+"-"+ClientName+"_"+ClientCountry]</InArgument>
+                  <InArgument x:TypeArguments="x:String">[ClientID+"-"+ClientName+"-"+ClientCountry]</InArgument>
                 </Assign.Value>
               </Assign>
               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="GetHash - Invoke Workflow File (Framework\GetHash.xaml)" sap:VirtualizedContainerService.HintSize="483.2,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Framework\GetHash.xaml">
@@ -196,13 +196,14 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome ACME System 1" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,996" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="e56036b7-92c6-4f58-b656-f3792141729d" Version="V2">
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="483.2,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+              <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Chrome ACME System 1" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,997.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="e56036b7-92c6-4f58-b656-f3792141729d" Version="V2" WindowResize="Restore">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,754.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,756" sap2010:WorkflowViewState.IdRef="Sequence_4">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -212,7 +213,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/update/80441659" CVScreenId="566b3a59-2a09-4050-a098-bfdd5427ff25" ContentHash="4tZEGGGNb0yQfacaWsbBYg" CvElementArea="64, 456, 436, 69" CvType="InputBox" DesignTimeRectangle="66, 458, 435, 67" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newComment' tag='TEXTAREA' type='text' class='form-control' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d03fc0f9-b419-4b9f-807d-e53b485a6fe1" InformativeScreenshot="8671f425213b137108289c4633ed4156.png" IsResponsive="True" Reference="ej1kaHY4C0aDk9spEbzp7w/c2-YTMobkUuq86HEz7chAw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="566b3a59-2a09-4050-a098-bfdd5427ff25" CvTextArea="64, 428, 137, 17" CvTextArgument="Add Comments:" CvType="Text" DesignTimeRectangle="66, 426, 135, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Add Comments:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Add Comments:' /&gt;" Guid="01606678-fe36-448b-a123-3ec27241f4f3" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -241,7 +242,7 @@
                         <uix:NSelectItem.Target>
                           <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items/update/80441659" CVScreenId="566b3a59-2a09-4050-a098-bfdd5427ff25" ContentHash="RfdBBWA7Kk6lWhR9oAkINQ" CvElementArea="64, 572, 277, 44" CvType="InputBox" DesignTimeRectangle="66, 575, 275, 42" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='btn dropdown-toggle bs-placeholder btn-default' aaname='---' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='---' /&gt;" Guid="1f12eb10-0c6d-4bda-9c09-cd1024309858" InformativeScreenshot="02d99a9332714dd492df5d7474c5e901.png" Reference="ej1kaHY4C0aDk9spEbzp7w/ju8FBpTjyUqCqJXK7tBoEA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='WI-Update' title='ACME System 1' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="566b3a59-2a09-4050-a098-bfdd5427ff25" CvTextArea="65, 546, 101, 16" CvTextArgument="New Status:" CvType="Text" DesignTimeRectangle="66, 544, 100, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='New Status:' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='New Status:' /&gt;" Guid="18ab52ae-0aea-4fbb-815f-83d79ca05564" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>

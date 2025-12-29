@@ -104,19 +104,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GetHash" sap:VirtualizedContainerService.HintSize="925.2,1017.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GetHash" sap:VirtualizedContainerService.HintSize="1015.6,1019.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome SHA-1 Hash Generator Online Tool" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,994.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="145923ef-2490-48fd-8dfa-0dd9db22e296" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome SHA-1 Hash Generator Online Tool" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="483.2,996" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="145923ef-2490-48fd-8dfa-0dd9db22e296" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,754.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,756" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -126,7 +126,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="fd51628f-64d6-4e7b-8b04-db68cfd60cae" ContentHash="P3QfIBO1uk-UF6XK7lU3tA" CvElementArea="507, 495, 906, 243" CvType="InputBox" DesignTimeRectangle="512, 499, 895, 240" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='inputTextArea' tag='TEXTAREA' type='' class='textarea is-large is-primary' placeholder='Enter Text to Generate SHA1 Hash' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="400e8122-be45-495f-92a3-5ea61e565b56" InformativeScreenshot="6836e60ab4f1e7ee531e4a8e08bf7681.png" IsResponsive="True" Reference="ej1kaHY4C0aDk9spEbzp7w/cOtb-vsfUUammWrG1crmvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="fd51628f-64d6-4e7b-8b04-db68cfd60cae" CvTextArea="511, 469, 261, 18" CvTextArgument="Enter the plain or Cipher Text:" CvType="Text" DesignTimeRectangle="512, 463, 432, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='' aaname='Enter the plain or Cipher Text:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Enter the plain or Cipher Text:' /&gt;" Guid="ef43de07-e32f-4546-a4e7-c78b68f44964" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -147,7 +147,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="codebeautify.org/sha1-hash-generator" CVScreenId="0610dc53-78bc-4ee3-bc81-16c6d82fa890" ContentHash="krXzpgcrTE6i_4kiPnXv4g" CvElementArea="708, 781, 186, 66" CvTextArea="764, 804, 105, 22" CvTextArgument="Generate" CvType="Button" DesignTimeRectangle="767, 796, 100, 38" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Generate' parentid='defaultAction' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Generate' /&gt;" Guid="be23ac97-eef1-4704-afd5-4e4244b4ebe8" InformativeScreenshot="5dbceeec1d80181548bc0b5885638dd1.png" Reference="ej1kaHY4C0aDk9spEbzp7w/DGwGKFKW3UOw5LQLn0BQTg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SHA-1 Hash Generator Online Tool' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="0610dc53-78bc-4ee3-bc81-16c6d82fa890" CvElementArea="708, 781, 186, 66" CvTextArea="764, 804, 105, 22" CvTextArgument="Generate" CvType="Button" DesignTimeRectangle="711, 784, 182, 62" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='defaultAction' tag='BUTTON' type='' class='button is-medium is-info mr-4' aaname='  Generate ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Generate' /&gt;" Guid="a8c02547-31f8-4222-be9f-e92802ba3f25" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
